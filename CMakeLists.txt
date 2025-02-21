@@ -33,6 +33,7 @@ project(bitdoglab_project C CXX ASM)
 # Initialise the Raspberry Pi Pico SDK
 pico_sdk_init()
 
+
 # Add executable. Default name is the project name, version 0.1
 
 add_executable(bitdoglab_project bitdoglab_project.c )
@@ -46,11 +47,16 @@ pico_enable_stdio_usb(bitdoglab_project 1)
 
 # Add the standard library to the build
 target_link_libraries(bitdoglab_project
-        pico_stdlib)
+        pico_stdlib
+        hardware_adc
+        joystick)
+
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/libs/joystick)
 
 # Add the standard include files to the build
 target_include_directories(bitdoglab_project PRIVATE
         ${CMAKE_CURRENT_LIST_DIR}
+        ${CMAKE_CURRENT_LIST_DIR}/libs
 )
 
 # Add any user requested libraries

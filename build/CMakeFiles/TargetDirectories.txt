@@ -195,3 +195,6 @@ C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/pico-sdk/src/rp2
 C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/rebuild_cache.dir
 C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/joystick/CMakeFiles/joystick.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/joystick/CMakeFiles/edit_cache.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/joystick/CMakeFiles/rebuild_cache.dir
