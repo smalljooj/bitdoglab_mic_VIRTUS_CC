@@ -4,7 +4,7 @@ project(joystick)
 
 add_library(joystick joystick.c joystick.h)
 
-target_link_libraries( joystick
+target_link_libraries(joystick
     pico_stdlib
     hardware_adc
 )

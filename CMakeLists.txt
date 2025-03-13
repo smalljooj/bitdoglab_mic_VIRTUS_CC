@@ -36,7 +36,7 @@ pico_sdk_init()
 
 # Add executable. Default name is the project name, version 0.1
 
-add_executable(bitdoglab_project bitdoglab_project.c )
+add_executable(bitdoglab_project main.c )
 
 pico_set_program_name(bitdoglab_project "bitdoglab_project")
 pico_set_program_version(bitdoglab_project "0.1")
@@ -49,9 +49,17 @@ pico_enable_stdio_usb(bitdoglab_project 1)
 target_link_libraries(bitdoglab_project
         pico_stdlib
         hardware_adc
-        joystick)
+        hardware_flash
+        lfs
+        joystick
+        mic
+        malha_led
+)
 
 add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/libs/joystick)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/libs/mic)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/libs/lfs)
+add_subdirectory(${CMAKE_CURRENT_LIST_DIR}/libs/malha_led)
 
 # Add the standard include files to the build
 target_include_directories(bitdoglab_project PRIVATE
@@ -60,9 +68,7 @@ target_include_directories(bitdoglab_project PRIVATE
 )
 
 # Add any user requested libraries
-target_link_libraries(bitdoglab_project 
-        
-        )
+target_link_libraries(bitdoglab_project)
 
 pico_add_extra_outputs(bitdoglab_project)
 

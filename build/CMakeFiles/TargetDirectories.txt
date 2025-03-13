@@ -198,3 +198,13 @@ C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/pico-sdk/docs/CM
 C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/joystick/CMakeFiles/joystick.dir
 C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/joystick/CMakeFiles/edit_cache.dir
 C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/joystick/CMakeFiles/rebuild_cache.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/mic/CMakeFiles/mic.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/mic/CMakeFiles/edit_cache.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/mic/CMakeFiles/rebuild_cache.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/lfs/CMakeFiles/lfs.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/lfs/CMakeFiles/edit_cache.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/lfs/CMakeFiles/rebuild_cache.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/malha_led/CMakeFiles/malha_led.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/malha_led/CMakeFiles/malha_led_ws2818b_pio_h.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/malha_led/CMakeFiles/edit_cache.dir
+C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/malha_led/CMakeFiles/rebuild_cache.dir

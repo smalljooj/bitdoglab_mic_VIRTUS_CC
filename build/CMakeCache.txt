@@ -358,6 +358,33 @@ joystick_IS_TOP_LEVEL:STATIC=OFF
 joystick_SOURCE_DIR:STATIC=C:/Users/ismae/Documents/pico workspace/bitdoglab_project/libs/joystick
 
 //Value Computed by CMake
+lfs_BINARY_DIR:STATIC=C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/lfs
+
+//Value Computed by CMake
+lfs_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+lfs_SOURCE_DIR:STATIC=C:/Users/ismae/Documents/pico workspace/bitdoglab_project/libs/lfs
+
+//Value Computed by CMake
+malha_led_BINARY_DIR:STATIC=C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/malha_led
+
+//Value Computed by CMake
+malha_led_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+malha_led_SOURCE_DIR:STATIC=C:/Users/ismae/Documents/pico workspace/bitdoglab_project/libs/malha_led
+
+//Value Computed by CMake
+mic_BINARY_DIR:STATIC=C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/libs/mic
+
+//Value Computed by CMake
+mic_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+mic_SOURCE_DIR:STATIC=C:/Users/ismae/Documents/pico workspace/bitdoglab_project/libs/mic
+
+//Value Computed by CMake
 pico_sdk_BINARY_DIR:STATIC=C:/Users/ismae/Documents/pico workspace/bitdoglab_project/build/pico-sdk
 
 //Value Computed by CMake
@@ -488,7 +515,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=97
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=100
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

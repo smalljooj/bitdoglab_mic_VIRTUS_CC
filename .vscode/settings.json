@@ -39,6 +39,8 @@
     "files.associations": {
         "*.embeddedhtml": "html",
         "stdlib.h": "c",
-        "gpio.h": "c"
+        "gpio.h": "c",
+        "stdio.h": "c",
+        "joystick.h": "c"
     }
 }
