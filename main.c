@@ -6,6 +6,12 @@
 #include "mic/mic.h"
 #include "malha_led/malha_led.h"
 
+// THRESHOLD for the LED response
+#define THRESHOLD_1 -0.5
+#define THRESHOLD_2 -0.25
+#define THRESHOLD_3  0.25
+#define THRESHOLD_4  0.5
+
 // Arrays storing LED pin mappings for each row of the 5x5 LED matrix
 uint8_t led_1[5] = {4, 5, 14, 15, 24};
 uint8_t led_2[5] = {3, 6, 13, 16, 23};
@@ -61,61 +67,61 @@ void show_sample_matriz(float read, uint8_t sample_num)
     switch (sample_num)
     {
         case 0:
-            if (read <= -0.5)
+            if (read <= THRESHOLD_1)
                 npSetLED(led_1[0], 20); // Down
-            else if (read <= -0.25)
+            else if (read <= THRESHOLD_2)
                 npSetLED(led_1[1], 20);
-            else if (read <= 0.25)
+            else if (read <= THRESHOLD_3)
                 npSetLED(led_1[2], 20); // Center 
-            else if (read <= 0.5)
+            else if (read <= THRESHOLD_4)
                 npSetLED(led_1[3], 20);
             else 
                 npSetLED(led_1[4], 20); // Up
             break;
         case 1:
-            if (read <= -0.5)
+            if (read <= THRESHOLD_1)
                 npSetLED(led_2[0], 20);
-            else if (read <= -0.25)
+            else if (read <= THRESHOLD_2)
                 npSetLED(led_2[1], 20);
-            else if (read <= 0.25)
+            else if (read <= THRESHOLD_3)
                 npSetLED(led_2[2], 20);
-            else if (read <= 0.5)
+            else if (read <= THRESHOLD_4)
                 npSetLED(led_2[3], 20);
             else 
                 npSetLED(led_2[4], 20);
             break;
         case 2:
-            if (read <= -0.5)
+            if (read <= THRESHOLD_1)
                 npSetLED(led_3[0], 20);
-            else if (read <= -0.25)
+            else if (read <= THRESHOLD_2)
                 npSetLED(led_3[1], 20);
-            else if (read <= 0.25)
+            else if (read <= THRESHOLD_3)
                 npSetLED(led_3[2], 20);
-            else if (read <= 0.5)
+            else if (read <= THRESHOLD_4)
                 npSetLED(led_3[3], 20);
             else 
                 npSetLED(led_3[4], 20);
             break;
         case 3:
-            if (read <= -0.5)
+            if (read <= THRESHOLD_1)
                 npSetLED(led_4[0], 20);
-            else if (read <= -0.25)
+            else if (read <= THRESHOLD_2)
                 npSetLED(led_4[1], 20);
-            else if (read <= 0.25)
+            else if (read <= THRESHOLD_3)
                 npSetLED(led_4[2], 20);
-            else if (read <= 0.5)
+            else if (read <= THRESHOLD_4)
                 npSetLED(led_4[3], 20);
             else 
                 npSetLED(led_4[4], 20);
             break;
         case 4:
-            if (read <= -0.5)
+            if (read <= THRESHOLD_1)
                 npSetLED(led_5[0], 20);
-            else if (read <= -0.25)
+            else if (read <= THRESHOLD_2)
                 npSetLED(led_5[1], 20);
-            else if (read <= 0.25)
+            else if (read <= THRESHOLD_3)
                 npSetLED(led_5[2], 20);
-            else if (read <= 0.5)
+            else if (read <= THRESHOLD_4)
                 npSetLED(led_5[3], 20);
             else 
                 npSetLED(led_5[4], 20);
