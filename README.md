@@ -1,4 +1,4 @@
-# Projeto de Controle de Matriz de LED com Joystick - VIRTUS-CC
+# Projeto de Controle do microfone - VIRTUS-CC
 <p align="center">
   <img src="images/VirtusCC.png" />
 </p>
